@@ -10,7 +10,7 @@ terraform {
     }
     rancher2 = {
       source  = "rancher/rancher2"
-      version = "~> 4.0"
+      version = "~> 14.0"
     }
     kubernetes = {
       source  = "hashicorp/kubernetes"
