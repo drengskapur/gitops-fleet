@@ -60,7 +60,7 @@ resource "helm_release" "fleet_crd" {
   create_namespace = true
   chart            = "fleet-crd"
   repository       = "https://rancher.github.io/fleet-helm-charts/"
-  version          = "0.10.0-rc.17"
+  version          = "0.16.1"
   wait             = true
 }
 
